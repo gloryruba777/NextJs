@@ -8,7 +8,7 @@ const CreateIndex = () => {
   return (
     <div>
       <Head>
-        <title>Calculadora online</title>
+        <title>Calculator</title>
         <meta name="description" content="Calculadora online hecha en next.js" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -34,7 +34,7 @@ console.log(nextValue);
             <CalculatorKey keyValue={"c"} onClick={handleOperation} />
           </div>
           <div className="col">
-            <CalculatorKey keyValue={"Retr"} onClick={handleOperation} />
+            <CalculatorKey keyValue={"Back"} onClick={handleOperation} />
           </div>
           <div className="col">
             <CalculatorKey keyValue={"÷"} onClick={handleOperation} />
